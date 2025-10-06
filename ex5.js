@@ -49,6 +49,7 @@ for (let ano = 1996; ano <= new Date().getFullYear(); ano++) {
 console.log("Salário atual:", salario.toFixed(2))
 
 // Q.4 Salário informado pelo usuário
+
 let salarioInicial = parseFloat(prompt("Digite o salário inicial:"))
 let salario2 = salarioInicial
 let percentual2 = 0.0015
